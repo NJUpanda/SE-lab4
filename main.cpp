@@ -21,13 +21,4 @@ int main()
 {
     cout << "welcome!" << endl;
     while(!Input()){}
-    //Testcase::auto_(0, files.get_stdin_path(0), 3);
-    //Testcase::delete_(1, 100);
-    //files.complie_(0);
-    //cout<<"ok";
-    //files.complie_(1);
-    // files.delete_(1);
-    // files.delete_(0);
-    Execute();
-    Output();
 }

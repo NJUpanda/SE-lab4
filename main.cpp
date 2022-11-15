@@ -16,9 +16,11 @@ using namespace std;
 extern int Input();
 extern int Execute();
 extern void Output();
-File files;
 int main()
 {
+    File files;
     cout << "welcome!" << endl;
     while(!Input()){}//start input
+    Execute(files);
+    Output(files);
 }

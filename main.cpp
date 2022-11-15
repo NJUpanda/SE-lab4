@@ -20,5 +20,5 @@ File files;
 int main()
 {
     cout << "welcome!" << endl;
-    while(!Input()){}
+    while(!Input()){}//start input
 }

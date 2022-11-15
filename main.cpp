@@ -13,14 +13,14 @@
 #include "execute.h"
 #include <unistd.h>
 using namespace std;
-extern int Input();
-extern int Execute();
-extern void Output();
+extern int Input(File& files);
+extern int Execute(File& files);
+extern void Output(File files);
 int main()
 {
     File files;
     cout << "welcome!" << endl;
-    while(!Input()){}//start input
+    while(!Input(files)){}//start input
     Execute(files);
     Output(files);
 }

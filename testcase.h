@@ -94,7 +94,6 @@ public:
 				str1 >> b;
 				int j = 0;
 				j = rand() % (b - a + 1) + a;
-				//cout << j << endl;
 				for(int j = 0; j < n; j++)
 				{
 					ofstream testcase("case"+ to_string(id) + "-" + to_string(j) + ".txt", ios::app);
